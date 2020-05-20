@@ -1,0 +1,426 @@
+
+---Downloaded files---
+The import files for: Standard Demo were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost:8080/printz/wordpress
+Data file = D:\xampp\htdocs\printz\wordpress/wp-content/themes/flone/inc/importdata/content.xml
+Widget file = D:\xampp\htdocs\printz\wordpress/wp-content/themes/flone/inc/importdata/widgets.wie
+Customizer file = D:\xampp\htdocs\printz\wordpress/wp-content/themes/flone/inc/importdata/customizer.dat
+Redux files:
+flone_opt -> D:\xampp\htdocs\printz\wordpress/wp-content/uploads/2020/04/demo-redux-import-file_0-2020-04-08__14-05-38.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Pesquisar - Search - Imported
+Recent Posts : Flone - No Title - Imported
+Categorias - Categories - Imported
+Nuvem de etiquetas - Tag - Imported
+
+Shop Sidebar  : 
+
+woolentor_widget_psa - Ajax Search Form - Site does not support widget
+Product Search - Search - Imported
+Filter Products by Attribute - Filter by - Imported
+Filter Products by Price - Filter By Price - Imported
+Filter Products by Attribute - Filter By Color - Imported
+Filter Products by Attribute - Filter By Size - Imported
+Product Tag Cloud - Tag - Imported
+
+Footer Widget 1 : 
+
+HTML personalizado - No Title - Imported
+
+Footer Widget 2 : 
+
+Menu de navegação - About Us - Imported
+
+Footer Widget 3 : 
+
+Menu de navegação - Help Link - Imported
+
+Footer Widget 4 : 
+
+Menu de navegação - Follow Us - Imported
+
+footer-5 : Sidebar does not exist in theme (moving widget to Inactive)
+
+HTML personalizado - Subscribe - Imported to Inactive
+Texto - No Title - Imported to Inactive
+
+
+
+---Importing Redux settings---
+Redux settings import for: flone_opt finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
