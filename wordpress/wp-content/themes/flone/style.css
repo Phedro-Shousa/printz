@@ -1,0 +1,843 @@
+/*!
+Theme Name: Flone
+Theme URI: http://demo.shrimpthemes.com/2/flone/
+Author: codecarnival
+Author URI: https://hasthemes.com/
+Description: Flone is a new WordPress theme for Online Shopping. With this theme, we have presets and different layouts With drag and drop home page layout manager. You can build many variations of home page layout. We also have ajax cart, wishlist, compare, zoom and fancybox to bring into a modern look of website. Some of amazing features like Mega Menu, Elementor, Product Tabs & Carousel, Contact Form with Google map will makes your website more attractive.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flone
+Domain Path: /languages
+Tags: e-commerce, one-column, two-columns, left-sidebar, right-sidebar, custom-logo, custom-menu, footer-widgets, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Elements
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    margin-top: 0;
+    line-height: 1.35;
+    font-weight: 500;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.55em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: .83em;
+}
+p {
+    margin-bottom: 1rem;
+}
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+address {
+    margin: 0 0 1.5em;
+}
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    color: #e83e8c;
+}
+kbd {
+    background: #000;
+    color: #fff;
+}
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+mark,
+ins {
+    background: #999;
+    color: #fff;
+    text-decoration: none;
+}
+.woocommerce ins {
+    background: transparent;
+}
+big {
+    font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    /* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+    background-color: #c8c6c6;
+    border: 0;
+    height: 1px;
+}
+
+body ul,
+body ol {
+    margin: 0 0 .7em 0;
+    padding: 0 0 0 1.5em;
+}
+.entry-content li>ul,
+.comment-content li>ul,
+.comment-content li>ol,
+.entry-content li>ol {
+    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
+}
+ul {
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0 1.5em 1.5em;
+}
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+}
+figure.wp-block-image {
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    /* Extra wide images within figure tags don't overflow the content area. */
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+  text-align: center;
+  margin: 0 0 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+table td,
+table th {
+  padding: 0.5em;
+  border: 1px solid #c8c6c6;
+  word-break: break-all;
+}
+select {
+    border: 1px solid #c8c6c6;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+	margin-bottom: 15px;
+}
+textarea {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+a {
+    color: #000;
+}
+.entry-content a,
+.comment-content a{
+	color: #a749ff;
+	text-decoration: underline;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #5d2a8c;
+    text-decoration: none;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+
+.main-navigation {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.main-navigation ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    float: left;
+    position: absolute;
+    top: 100%;
+    left: -999em;
+    z-index: 99999;
+}
+.main-navigation ul ul ul {
+    left: -999em;
+    top: 0;
+}
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
+    left: 100%;
+}
+.main-navigation ul ul a {
+    width: 200px;
+}
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
+    left: auto;
+}
+.main-navigation li {
+    float: left;
+    position: relative;
+}
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+}
+
+/* Small menu. */
+
+.menu-toggle,
+.main-navigation.toggled ul {
+    display: block;
+}
+@media screen and (min-width: 37.5em) {
+    .menu-toggle {
+        display: none;
+    }
+    .main-navigation ul {
+        display: block;
+    }
+}
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+    float: left;
+    width: 50%;
+}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    -webkit-clip-path: none;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin:0.375em 0 1.75em 1.75em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+    clear: both;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget select {
+    max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+.sticky {
+    display: block;
+}
+.post,
+.page {
+    margin: 0 0 1.5em;
+}
+.updated:not(.published) {
+    display: none;
+}
+.page-main .entry-content > *:last-child,
+.post-main .entry-content > *:last-child,
+.comment-content > *:last-child,
+.entry-summary > *:last-child {
+   margin-bottom: 0;
+}
+article .entry-content{
+	margin-top: 15px;
+}
+.single article .entry-content{
+	margin-top: 0;
+}
+.page-main .entry-content > *,
+.post-main .entry-content > *,
+.comment-content > *,
+.entry-summary > * {
+    word-break: break-word;
+}
+
+.entry-content li,
+.comment-content li {
+    line-height: 2;
+}
+.page-template-default .entry-content{
+   margin-top: 0;
+}
+.page-template-page-full-width .entry-content,
+.page-template-page-full-width .page {
+    margin: 0
+}
+.page-links {
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.entry-content .page-links{
+	margin-top: 20px;
+}
+.page-links .post-page-numbers{
+	margin-left: 10px;
+}
+.single-post .entry-title {
+    margin-bottom: 10px;
+}
+.post-password-form input[type="submit"]{
+	width: auto;
+	border-radius: 0;
+	background-color: #404040;
+	padding: 0 35px;
+	margin-left: 10px;
+	color: #fff;
+}
+.post-password-form input[type="submit"]:hover{
+	background: #a749ff;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+
+.comment-content a {
+    word-wrap: break-word;
+}
+.bypostauthor {
+    display: block;
+}
+.comment-content a {
+    text-decoration: underline;
+}
+.comment-navigation .nav-next,
+.comment-navigation .nav-previous {
+    font-weight: 600;
+    font-size: 20px;
+}
+.comment-navigation a {
+    color: #a749ff;
+}
+.comment-navigation .nav-next {
+    float: right;
+    text-align: right;
+}
+.comment-navigation .nav-previous {
+    float: left;
+    text-align: left;
+}
+.comment-navigation .nav-next i {
+    margin-left: 10px;
+}
+.comment-navigation .nav-previous i {
+    margin-right: 10px;
+}
+.comment-form .logged-in-as a:hover {
+    color: #a749ff;
+    text-decoration: underline;
+}
+.comment-respond p.logged-in-as {
+    margin-bottom: 10px;
+}
+.comment-form .form-submit input[type="submit"] {
+    background: #a749ff;
+    border: medium none;
+    color: #fff;
+    font-weight: 500;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.comment-form .form-submit input[type="submit"]:hover {
+    background: #000;
+}
+#cancel-comment-reply-link {
+    color: #a749ff;
+}
+#cancel-comment-reply-link:hover {
+    color: #a749ff;
+}
+.comments-title {
+    margin-bottom: 25px;
+}
+.comment-list {
+    margin-left: 0;
+    padding-left: 0;
+}
+.comment-list .pingback,
+.comment-list .trackback{
+	margin-left: 15px;
+	padding-bottom: 15px;
+}
+.comment-list .pingback + li.comment{
+	padding-top: 15px;
+}
+.comment-list .pingback a,
+.comment-list .trackback a{
+	color: #a749ff;
+}
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover{
+	color: #333;
+}
+.comment-list a:hover {
+    color: #a749ff;
+}
+.comment-list .comment-metadata a {
+    color: #A749FF;
+    font-size: 14px;
+}
+.comment-meta .comment-author span.says {
+    font-size: 16px;
+}
+.comment-meta .comment-author b.fn {
+    font-size: 16px;
+}
+.comment-list .comment-metadata a:hover {
+    color: #a749ff;
+}
+.comment-list .comment-metadata a.comment-edit-link {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+.comment-list .comment-metadata a.comment-edit-link:hover {
+    color: #a749ff;
+}
+.logged-in .comment-list .comment-content {
+    margin-bottom: 1rem;
+}
+.comment-list li.comment {
+    line-height: 24px;
+    margin: 0 0 24px 0;
+    list-style: none;
+}
+.comment-list li article.comment-body {
+    border: 1px solid #c8c6c6;
+    margin: 0 0 30px;
+    padding: 30px;
+    padding-left: 100px;
+    width: 100%;
+    position: relative;
+}
+.comment-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.comment-list .avatar {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.comment-list .children {
+    margin: 0;
+    padding-left: 2.5rem;
+}
+.comment-list .children li {
+    border: none;
+    margin: 0;
+}
+.comment-meta {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+.reply {
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.reply a {
+    color: #fff;
+    display: inline-block;
+    background-color: #a749ff;
+    padding: 0 20px 0;
+    line-height: 32px;
+    margin: 0;
+    border-radius: 50px;
+}
+.reply a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+    /* Theme Footer (when set to scrolling) */
+    display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
+.infinity-end.neverending .site-footer {
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+
+embed,
+iframe,
+object {
+    max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+
+.custom-logo-link {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.site-branding .site-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+.wp-caption-text {
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+.gallery {
+    margin-bottom: 1.5em;
+}
+.gallery-item {
+    display: inline-block;
+    margin: 0 0 1.5em;
+    padding: 0 1em 0 0;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+.gallery-item figcaption.wp-caption-text {
+    margin-top: 5px;
+}
+.gallery-caption {
+    display: block;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+.comment-respond .comment-form-cookies-consent input#wp-comment-cookies-consent {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    position: relative;
+    top: 0;
+}
+.comment-respond h3.comment-reply-title {
+    font-size: 1.55em;
+}
+.topbar_style_2.header-top-area .header-top-wap ul li:first-child {
+    padding: 0;
+}
+.topbar_style_2.header-top-area .header-top-wap ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.topbar_style_2.header-top-area .header-top-wap ul li {
+    display: inline-block;
+    padding-left: 10px;
+}

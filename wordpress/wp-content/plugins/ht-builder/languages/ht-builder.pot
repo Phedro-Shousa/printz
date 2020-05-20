@@ -1,0 +1,1250 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HT Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-09 08:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#. 1: Plugin name 2: Elementor
+#: includes/base.php:127
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/base.php:143 includes/base.php:160
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:238
+#: includes/widgets/bl_post_meta_info.php:575
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:64
+msgid "1"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:65
+msgid "2"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:66
+msgid "3"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:67
+msgid "4"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:82
+#, php-format
+msgid ""
+"<strong>There are no menus in your site.</strong><br>Go to the <a "
+"href=\"%s\" target=\"_blank\">Menus Option</a> to create one."
+msgstr ""
+
+#: includes/base.php:116
+msgid "Activate Elementor"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:280
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:94
+msgid "Additional Options"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:101
+msgid "Admin Posts"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:111 includes/widgets/bl_page_title.php:133
+#: includes/widgets/bl_post_archive.php:302
+#: includes/widgets/bl_post_archive.php:383
+#: includes/widgets/bl_post_archive.php:490
+#: includes/widgets/bl_post_archive.php:596
+#: includes/widgets/bl_post_archive.php:676
+#: includes/widgets/bl_post_archive_title.php:135
+#: includes/widgets/bl_post_content.php:68
+#: includes/widgets/bl_post_excerpt.php:68
+#: includes/widgets/bl_post_featured_image.php:67
+#: includes/widgets/bl_post_title.php:101 includes/widgets/bl_site_logo.php:155
+#: includes/widgets/bl_site_title.php:135
+msgid "Alignment"
+msgstr ""
+
+#: includes/admin/admin-setting.php:253 includes/admin/admin-setting.php:254
+msgid "Archive Posts"
+msgstr ""
+
+#: includes/admin/admin-setting.php:262 includes/admin/admin-setting.php:263
+#: includes/widgets/bl_post_archive_title.php:39
+#: includes/widgets/bl_post_archive_title.php:60
+#: includes/widgets/bl_post_archive_title.php:167
+msgid "Archive Title"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:224
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:65
+msgid "Author"
+msgstr ""
+
+#: includes/admin/admin-setting.php:307 includes/admin/admin-setting.php:308
+#: includes/widgets/bl_post_author_info.php:41
+msgid "Author Info"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:170
+msgid "Avatar"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:110
+msgid "Avater Image Position"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:162 includes/widgets/bl_nav_menu.php:247
+#: includes/widgets/bl_nav_menu.php:300 includes/widgets/bl_nav_menu.php:354
+#: includes/widgets/bl_nav_menu.php:396 includes/widgets/bl_nav_menu.php:449
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/bl_post_comments.php:108
+#: includes/widgets/bl_post_comments.php:158
+#: includes/widgets/bl_post_search_form.php:195
+#: includes/widgets/bl_post_search_form.php:269
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:263
+msgid "Biography"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:23
+msgid "BL: Archive Posts"
+msgstr ""
+
+#: includes/widgets/bl_post_archive_title.php:22
+msgid "BL: Archive Title"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:24
+msgid "BL: Author Info"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:23
+msgid "BL: Nav Menu"
+msgstr ""
+
+#: includes/widgets/bl_page_title.php:22
+msgid "BL: Page Title"
+msgstr ""
+
+#: includes/widgets/bl_post_comments.php:22
+msgid "BL: Post Comments"
+msgstr ""
+
+#: includes/widgets/bl_post_content.php:22
+msgid "BL: Post Content"
+msgstr ""
+
+#: includes/widgets/bl_post_excerpt.php:22
+msgid "BL: Post Excerpt"
+msgstr ""
+
+#: includes/widgets/bl_post_featured_image.php:23
+msgid "BL: Post Featured Image"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:23
+msgid "BL: Post Meta Info"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:22
+msgid "BL: Post Search Form"
+msgstr ""
+
+#: includes/widgets/bl_post_title.php:23
+msgid "BL: Post Title"
+msgstr ""
+
+#: includes/widgets/bl_site_logo.php:24
+msgid "BL: Site Logo"
+msgstr ""
+
+#: includes/widgets/bl_site_title.php:22
+msgid "BL: Site Title"
+msgstr ""
+
+#: includes/admin/admin-setting.php:534
+msgid "Blog Details Layout One"
+msgstr ""
+
+#: includes/admin/admin-setting.php:518
+msgid "Blog Layout One"
+msgstr ""
+
+#: includes/admin/admin-setting.php:526
+msgid "Blog Layout Two"
+msgstr ""
+
+#: includes/admin/admin-setting.php:123
+msgid "Blog Template."
+msgstr ""
+
+#: includes/widgets/bl_post_title.php:133
+msgid "Blog Title"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:185 includes/widgets/bl_nav_menu.php:257
+#: includes/widgets/bl_nav_menu.php:310 includes/widgets/bl_nav_menu.php:419
+#: includes/widgets/bl_nav_menu.php:459 includes/widgets/bl_page_title.php:87
+#: includes/widgets/bl_post_archive.php:282
+#: includes/widgets/bl_post_archive.php:746
+#: includes/widgets/bl_post_archive.php:812
+#: includes/widgets/bl_post_archive.php:882
+#: includes/widgets/bl_post_archive.php:937
+#: includes/widgets/bl_post_archive_title.php:89
+#: includes/widgets/bl_post_author_info.php:176
+#: includes/widgets/bl_post_comments.php:68
+#: includes/widgets/bl_post_comments.php:129
+#: includes/widgets/bl_post_comments.php:170
+#: includes/widgets/bl_post_search_form.php:131
+#: includes/widgets/bl_post_search_form.php:216
+#: includes/widgets/bl_post_search_form.php:281
+#: includes/widgets/bl_site_logo.php:108 includes/widgets/bl_site_title.php:89
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:193 includes/widgets/bl_nav_menu.php:265
+#: includes/widgets/bl_nav_menu.php:318 includes/widgets/bl_page_title.php:96
+#: includes/widgets/bl_post_archive.php:290
+#: includes/widgets/bl_post_archive.php:754
+#: includes/widgets/bl_post_archive.php:820
+#: includes/widgets/bl_post_archive.php:890
+#: includes/widgets/bl_post_archive.php:945
+#: includes/widgets/bl_post_archive_title.php:98
+#: includes/widgets/bl_post_author_info.php:184
+#: includes/widgets/bl_post_search_form.php:139
+#: includes/widgets/bl_post_search_form.php:224
+#: includes/widgets/bl_site_logo.php:117 includes/widgets/bl_site_title.php:98
+msgid "Border Radius"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:126
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:206 includes/widgets/bl_nav_menu.php:364
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:166
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:86
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:54
+msgid "Button Type"
+msgstr ""
+
+#: includes/admin/admin-setting.php:562 includes/admin/admin-setting.php:570
+#: includes/admin/admin-setting.php:577
+msgid "Buy Now"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:543
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:119 includes/widgets/bl_page_title.php:141
+#: includes/widgets/bl_post_archive.php:310
+#: includes/widgets/bl_post_archive.php:391
+#: includes/widgets/bl_post_archive.php:498
+#: includes/widgets/bl_post_archive.php:604
+#: includes/widgets/bl_post_archive.php:684
+#: includes/widgets/bl_post_archive_title.php:143
+#: includes/widgets/bl_post_content.php:76
+#: includes/widgets/bl_post_excerpt.php:76
+#: includes/widgets/bl_post_featured_image.php:75
+#: includes/widgets/bl_post_title.php:109 includes/widgets/bl_site_logo.php:163
+#: includes/widgets/bl_site_title.php:143
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:509
+msgid "Choose"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:304
+msgid "Choose Icon"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:149 includes/widgets/bl_nav_menu.php:234
+#: includes/widgets/bl_nav_menu.php:287 includes/widgets/bl_nav_menu.php:383
+#: includes/widgets/bl_nav_menu.php:436 includes/widgets/bl_page_title.php:66
+#: includes/widgets/bl_post_archive.php:351
+#: includes/widgets/bl_post_archive.php:418
+#: includes/widgets/bl_post_archive.php:457
+#: includes/widgets/bl_post_archive.php:564
+#: includes/widgets/bl_post_archive.php:631
+#: includes/widgets/bl_post_archive.php:656
+#: includes/widgets/bl_post_archive.php:725
+#: includes/widgets/bl_post_archive.php:800
+#: includes/widgets/bl_post_archive.php:860
+#: includes/widgets/bl_post_archive.php:924
+#: includes/widgets/bl_post_archive_title.php:68
+#: includes/widgets/bl_post_author_info.php:227
+#: includes/widgets/bl_post_author_info.php:272
+#: includes/widgets/bl_post_comments.php:47
+#: includes/widgets/bl_post_comments.php:97
+#: includes/widgets/bl_post_comments.php:147
+#: includes/widgets/bl_post_content.php:48
+#: includes/widgets/bl_post_excerpt.php:48
+#: includes/widgets/bl_post_meta_info.php:355
+#: includes/widgets/bl_post_meta_info.php:395
+#: includes/widgets/bl_post_meta_info.php:425
+#: includes/widgets/bl_post_meta_info.php:451
+#: includes/widgets/bl_post_search_form.php:110
+#: includes/widgets/bl_post_search_form.php:184
+#: includes/widgets/bl_post_search_form.php:258
+#: includes/widgets/bl_site_title.php:68
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:60
+msgid "Columns"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:207
+msgid "Comment count"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:68
+#: includes/widgets/bl_post_meta_info.php:235
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets/bl_post_comments.php:191
+msgid "Comments Are Closed"
+msgstr ""
+
+#: includes/admin/admin-setting.php:631
+msgid "Contact form 7 widget for elementor page builder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:457
+msgid "Contact Us"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:649
+#: includes/widgets/bl_post_author_info.php:211
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:161
+msgid "Content Length"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:70
+#: includes/widgets/bl_post_meta_info.php:88
+#: includes/widgets/bl_post_meta_info.php:126
+#: includes/widgets/bl_post_meta_info.php:249
+#: includes/widgets/bl_post_meta_info.php:292
+#: includes/widgets/bl_site_logo.php:56
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:99
+msgid "Custom Date Format"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:195
+msgid "Custom Format"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:188
+msgid "Custom order"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:137
+msgid "Custom Time Format"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:273
+msgid "Custom URL"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:204
+#: includes/widgets/bl_post_meta_info.php:66
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:78
+msgid "Date Format"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:84
+msgctxt "Date Format"
+msgid "March 6, 2018 (F j, Y)"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:50
+#: includes/widgets/bl_post_meta_info.php:291
+#: includes/widgets/bl_site_logo.php:52
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:223
+msgid "Descending"
+msgstr ""
+
+#: includes/helper-function.php:91
+msgid "div"
+msgstr ""
+
+#: includes/helper-function.php:51
+msgid "Do not Saved Templates."
+msgstr ""
+
+#: includes/admin/admin-setting.php:520 includes/admin/admin-setting.php:528
+#: includes/admin/admin-setting.php:536
+msgid "Download"
+msgstr ""
+
+#: includes/base.php:129 includes/base.php:145
+msgid "Elementor"
+msgstr ""
+
+#: includes/admin/admin-setting.php:511
+msgid "Elementor Template Library"
+msgstr ""
+
+#: includes/admin/admin-setting.php:77
+msgid "Elements"
+msgstr ""
+
+#: includes/admin/admin-setting.php:106
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/admin-setting.php:105
+msgid "Enable Custom template Layout"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:89
+msgid "Enter you text"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:78
+msgid "Enter Your Text"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:463
+msgid "Font Size"
+msgstr ""
+
+#: classes/class.header_footer.php:100
+msgid "Footer Template"
+msgstr ""
+
+#: includes/admin/admin-setting.php:141
+msgid "Footer Template."
+msgstr ""
+
+#: includes/admin/admin-setting.php:583
+msgid "Free Plugins"
+msgstr ""
+
+#: includes/admin/admin-setting.php:67
+msgid "General"
+msgstr ""
+
+#: includes/admin/admin-setting.php:404
+msgid "Go Premium"
+msgstr ""
+
+#: includes/base.php:184
+msgid "Go Pro"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:74
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus Option</a> to manage your "
+"menus."
+msgstr ""
+
+#: includes/helper-function.php:84
+msgid "H1"
+msgstr ""
+
+#: includes/helper-function.php:85
+msgid "H2"
+msgstr ""
+
+#: includes/helper-function.php:86
+msgid "H3"
+msgstr ""
+
+#: includes/helper-function.php:87
+msgid "H4"
+msgstr ""
+
+#: includes/helper-function.php:88
+msgid "H5"
+msgstr ""
+
+#: includes/helper-function.php:89
+msgid "H6"
+msgstr ""
+
+#: includes/admin/admin-setting.php:568
+msgid "HashBar Pro - WordPress Notification Bar plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:611
+msgid "Hashbar – WordPress notification bar"
+msgstr ""
+
+#. Author of the plugin
+msgid "HasThemes"
+msgstr ""
+
+#: classes/class.header_footer.php:89
+msgid "Header Template"
+msgstr ""
+
+#: includes/admin/admin-setting.php:132
+msgid "Header Template."
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:106
+#: includes/widgets/bl_post_archive.php:118
+#: includes/widgets/bl_post_archive.php:130
+#: includes/widgets/bl_post_archive.php:142
+#: includes/widgets/bl_post_author_info.php:50
+#: includes/widgets/bl_post_author_info.php:75
+#: includes/widgets/bl_post_author_info.php:87
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:227 includes/widgets/bl_nav_menu.php:430
+#: includes/widgets/bl_post_archive.php:411
+#: includes/widgets/bl_post_archive.php:518
+#: includes/widgets/bl_post_archive.php:624
+#: includes/widgets/bl_post_archive.php:793
+#: includes/widgets/bl_post_archive.php:917
+#: includes/widgets/bl_post_comments.php:140
+#: includes/widgets/bl_post_meta_info.php:419
+#: includes/widgets/bl_post_search_form.php:251
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:491
+msgid "Hover Color"
+msgstr ""
+
+#. Name of the plugin
+#: includes/base.php:96 includes/base.php:128 includes/base.php:144
+#: includes/base.php:161 includes/admin/admin-setting.php:38
+#: includes/admin/admin-setting.php:39
+msgid "HT Builder"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"HT Builder is a elementor addons package for Elementor page builder plugin "
+"for WordPress."
+msgstr ""
+
+#: includes/admin/admin-setting.php:382
+msgid "HT Builder Settings"
+msgstr ""
+
+#: includes/admin/admin-setting.php:701
+msgid "HT Event – wordpress event manager plugin for elementor"
+msgstr ""
+
+#: classes/class.header_footer.php:81
+msgid "HT Header & Footer"
+msgstr ""
+
+#: includes/admin/admin-setting.php:591
+msgid "HT Mega – absolute addons for elementor page builder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:641
+msgid "HT Mega – absolute addons for wpbakery page builder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:711
+msgid "HT Politic – political wordpress plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:621
+msgid "HT Portfolio – wordpress portfolio plugin for elementor"
+msgstr ""
+
+#: includes/admin/admin-setting.php:576
+msgid "HT Script Pro - Insert Header & Footer Code"
+msgstr ""
+
+#: includes/admin/admin-setting.php:721
+msgid "HT Service – roofing service wordpress plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:651
+msgid "HT slider for elementor"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://hasthemes.com/plugins/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://htplugins.com/"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:287
+#: includes/widgets/bl_post_meta_info.php:443
+#: includes/widgets/bl_post_search_form.php:62
+#: includes/widgets/bl_post_search_form.php:74
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:203
+msgid "ID"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:141
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:51
+msgid "inline"
+msgstr ""
+
+#: includes/widgets/bl_post_comments.php:39
+#: includes/widgets/bl_post_search_form.php:102
+msgid "Input Box"
+msgstr ""
+
+#: includes/base.php:122
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/admin/admin-setting.php:592 includes/admin/admin-setting.php:602
+#: includes/admin/admin-setting.php:612 includes/admin/admin-setting.php:622
+#: includes/admin/admin-setting.php:632 includes/admin/admin-setting.php:642
+#: includes/admin/admin-setting.php:652 includes/admin/admin-setting.php:662
+#: includes/admin/admin-setting.php:672 includes/admin/admin-setting.php:682
+#: includes/admin/admin-setting.php:692 includes/admin/admin-setting.php:702
+#: includes/admin/admin-setting.php:712 includes/admin/admin-setting.php:722
+#: includes/admin/admin-setting.php:732 includes/admin/admin-setting.php:742
+#: includes/admin/admin-setting.php:752
+msgid "Install Now"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:249
+#: includes/widgets/bl_post_meta_info.php:347
+msgid "Item"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:378
+msgid "Item Link"
+msgstr ""
+
+#: includes/widgets/bl_page_title.php:149
+#: includes/widgets/bl_post_archive_title.php:151
+#: includes/widgets/bl_post_content.php:84
+#: includes/widgets/bl_post_excerpt.php:84
+#: includes/widgets/bl_post_title.php:117 includes/widgets/bl_site_logo.php:171
+#: includes/widgets/bl_site_title.php:151
+msgid "Justified"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:47
+#: includes/widgets/bl_post_meta_info.php:46
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:51
+msgid "Layout One"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:52
+msgid "Layout Two"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:115 includes/widgets/bl_page_title.php:137
+#: includes/widgets/bl_post_archive.php:306
+#: includes/widgets/bl_post_archive.php:387
+#: includes/widgets/bl_post_archive.php:494
+#: includes/widgets/bl_post_archive.php:600
+#: includes/widgets/bl_post_archive.php:680
+#: includes/widgets/bl_post_archive_title.php:139
+#: includes/widgets/bl_post_author_info.php:114
+#: includes/widgets/bl_post_content.php:72
+#: includes/widgets/bl_post_excerpt.php:72
+#: includes/widgets/bl_post_featured_image.php:71
+#: includes/widgets/bl_post_title.php:105 includes/widgets/bl_site_logo.php:159
+#: includes/widgets/bl_site_title.php:139
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:96
+#: includes/widgets/bl_post_meta_info.php:261
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:525
+msgid "Link Color"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:103
+msgid "Link for the Author Name and Image"
+msgstr ""
+
+#: includes/widgets/bl_site_logo.php:48
+msgid "Logo"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:1070
+msgid "M d, Y"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:95
+msgid "Main Menu"
+msgstr ""
+
+#: includes/widgets/bl_page_title.php:121
+#: includes/widgets/bl_post_archive.php:257
+#: includes/widgets/bl_post_archive.php:371
+#: includes/widgets/bl_post_archive.php:478
+#: includes/widgets/bl_post_archive.php:584
+#: includes/widgets/bl_post_archive.php:778
+#: includes/widgets/bl_post_archive.php:902
+#: includes/widgets/bl_post_archive_title.php:123
+#: includes/widgets/bl_post_author_info.php:196
+#: includes/widgets/bl_post_author_info.php:251
+#: includes/widgets/bl_post_author_info.php:296
+#: includes/widgets/bl_post_title.php:88 includes/widgets/bl_site_logo.php:143
+#: includes/widgets/bl_site_title.php:123
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:68
+msgid "Menu"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:39
+msgid "Meta Data"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:436
+msgid "Meta Info"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:61
+msgid "Meta Name"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:205
+#: includes/widgets/bl_post_author_info.php:218
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:59
+msgid "Name HTML Tag"
+msgstr ""
+
+#: includes/admin/admin-setting.php:298 includes/admin/admin-setting.php:299
+msgid "Nav Menu"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:60
+msgid "Navigation"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:207
+#: includes/widgets/bl_post_meta_info.php:210
+#: includes/widgets/bl_post_meta_info.php:573
+msgid "No Comments"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:202
+#: includes/widgets/bl_post_author_info.php:99
+#: includes/widgets/bl_post_meta_info.php:290
+msgid "None"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:143 includes/widgets/bl_nav_menu.php:376
+#: includes/widgets/bl_post_archive.php:344
+#: includes/widgets/bl_post_archive.php:450
+#: includes/widgets/bl_post_archive.php:557
+#: includes/widgets/bl_post_archive.php:718
+#: includes/widgets/bl_post_archive.php:853
+#: includes/widgets/bl_post_comments.php:90
+#: includes/widgets/bl_post_meta_info.php:388
+#: includes/widgets/bl_post_search_form.php:177
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:221
+#: includes/widgets/bl_post_meta_info.php:224
+#: includes/widgets/bl_post_meta_info.php:574
+msgid "One Comment"
+msgstr ""
+
+#: includes/admin/admin-setting.php:452
+msgid "Online Documentation"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:219
+msgid "order"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:198
+msgid "Orderby"
+msgstr ""
+
+#: includes/admin/admin-setting.php:87
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/helper-function.php:90
+msgid "p"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:171 includes/widgets/bl_nav_menu.php:405
+#: includes/widgets/bl_page_title.php:108
+#: includes/widgets/bl_post_archive.php:269
+#: includes/widgets/bl_post_archive.php:766
+#: includes/widgets/bl_post_archive_title.php:110
+#: includes/widgets/bl_post_search_form.php:151
+#: includes/widgets/bl_post_search_form.php:236
+#: includes/widgets/bl_site_logo.php:130 includes/widgets/bl_site_title.php:110
+msgid "Padding"
+msgstr ""
+
+#: includes/widgets/bl_post_content.php:125
+msgid "Page"
+msgstr ""
+
+#: includes/admin/admin-setting.php:271 includes/admin/admin-setting.php:272
+#: includes/widgets/bl_page_title.php:39 includes/widgets/bl_page_title.php:58
+#: includes/widgets/bl_page_title.php:165
+msgid "Page Title"
+msgstr ""
+
+#: includes/widgets/bl_post_content.php:121
+msgid "Pages:"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:839
+msgid "Pagination"
+msgstr ""
+
+#: includes/base.php:162
+msgid "PHP"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:45
+msgid "Placeholder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:235 includes/admin/admin-setting.php:236
+#: includes/widgets/bl_post_comments.php:186
+msgid "Post Comments"
+msgstr ""
+
+#: includes/admin/admin-setting.php:226 includes/admin/admin-setting.php:227
+#: includes/widgets/bl_post_content.php:40
+#: includes/widgets/bl_post_content.php:103
+msgid "Post Content"
+msgstr ""
+
+#: includes/admin/admin-setting.php:217 includes/admin/admin-setting.php:218
+#: includes/widgets/bl_post_excerpt.php:40
+#: includes/widgets/bl_post_excerpt.php:102
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/admin/admin-setting.php:199 includes/admin/admin-setting.php:200
+#: includes/widgets/bl_post_featured_image.php:40
+#: includes/widgets/bl_post_featured_image.php:59
+#: includes/widgets/bl_post_featured_image.php:97
+msgid "Post Featured Image"
+msgstr ""
+
+#: includes/admin/admin-setting.php:208 includes/admin/admin-setting.php:209
+msgid "Post Meta Info"
+msgstr ""
+
+#: includes/admin/admin-setting.php:244 includes/admin/admin-setting.php:245
+#: includes/widgets/bl_post_search_form.php:310
+msgid "Post Search Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:190 includes/admin/admin-setting.php:191
+#: includes/widgets/bl_post_title.php:41 includes/widgets/bl_post_title.php:60
+msgid "Post Title"
+msgstr ""
+
+#: includes/admin/admin-setting.php:555
+msgid "Premium Plugins"
+msgstr ""
+
+#: includes/admin/admin-setting.php:409
+msgid "premium version"
+msgstr ""
+
+#: includes/admin/admin-setting.php:519 includes/admin/admin-setting.php:527
+#: includes/admin/admin-setting.php:535 includes/admin/admin-setting.php:561
+#: includes/admin/admin-setting.php:569
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/admin-setting.php:326
+msgid "Print Page"
+msgstr ""
+
+#: includes/admin/admin-setting.php:325
+msgid "Print Page <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/admin-setting.php:409
+msgid "Purchase our"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:154
+msgid "Query Settings"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:208
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:704
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:77
+#: includes/widgets/bl_post_archive.php:1088
+msgid "Read more"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:75
+msgid "Read More Button Text"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:123 includes/widgets/bl_page_title.php:145
+#: includes/widgets/bl_post_archive.php:314
+#: includes/widgets/bl_post_archive.php:395
+#: includes/widgets/bl_post_archive.php:502
+#: includes/widgets/bl_post_archive.php:608
+#: includes/widgets/bl_post_archive.php:688
+#: includes/widgets/bl_post_archive_title.php:147
+#: includes/widgets/bl_post_author_info.php:118
+#: includes/widgets/bl_post_content.php:80
+#: includes/widgets/bl_post_excerpt.php:80
+#: includes/widgets/bl_post_featured_image.php:79
+#: includes/widgets/bl_post_title.php:113 includes/widgets/bl_site_logo.php:167
+#: includes/widgets/bl_site_title.php:147
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:88
+#: includes/widgets/bl_post_search_form.php:304
+msgid "Search"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:47
+msgid "Search ..."
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:38
+msgid "Search Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:150
+msgid "Search Page Template."
+msgstr ""
+
+#: includes/helper-function.php:53
+msgid "Select Template"
+msgstr ""
+
+#: includes/base.php:180 includes/widgets/bl_post_archive.php:40
+msgid "Settings"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:105
+#: includes/widgets/bl_post_archive.php:117
+#: includes/widgets/bl_post_archive.php:129
+#: includes/widgets/bl_post_archive.php:141
+#: includes/widgets/bl_post_author_info.php:49
+#: includes/widgets/bl_post_author_info.php:74
+#: includes/widgets/bl_post_author_info.php:86
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:72
+msgid "Show Avatar Image"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:84
+msgid "Show Biography"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:115
+msgid "Show Category"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:127
+msgid "Show Post Meta"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:139
+msgid "Show Read More Button"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:103
+#: includes/widgets/bl_post_author_info.php:47
+msgid "Show Title"
+msgstr ""
+
+#: includes/admin/admin-setting.php:114
+msgid "Single Blog Template."
+msgstr ""
+
+#: includes/admin/admin-setting.php:289 includes/admin/admin-setting.php:290
+#: includes/widgets/bl_site_logo.php:69
+msgid "Site Logo"
+msgstr ""
+
+#: includes/admin/admin-setting.php:280 includes/admin/admin-setting.php:281
+#: includes/widgets/bl_site_logo.php:41 includes/widgets/bl_site_title.php:39
+#: includes/widgets/bl_site_title.php:60 includes/widgets/bl_site_title.php:167
+msgid "Site Title"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:181
+msgid "Size"
+msgstr ""
+
+#: includes/admin/admin-setting.php:317
+msgid "Social share"
+msgstr ""
+
+#: includes/admin/admin-setting.php:316
+msgid "Social Share <span>( Pro )</span>"
+msgstr ""
+
+#: includes/helper-function.php:92
+msgid "span"
+msgstr ""
+
+#: includes/widgets/bl_site_logo.php:99
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:337
+msgid "Sub Menu"
+msgstr ""
+
+#: includes/widgets/bl_post_comments.php:79
+msgid "Submit Button"
+msgstr ""
+
+#: includes/admin/admin-setting.php:394
+msgid "Successfully Settings Saved."
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:156
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/admin-setting.php:82
+msgid "Template"
+msgstr ""
+
+#: includes/admin/admin-setting.php:72
+msgid "Template Builder"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:69
+msgid "Terms"
+msgstr ""
+
+#: includes/widgets/bl_post_search_form.php:58
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/bl_nav_menu.php:216
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:67
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:117
+msgid "Time Format"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:206
+#: includes/widgets/bl_post_archive.php:330
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/bl_post_title.php:68
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/bl_page_title.php:45
+#: includes/widgets/bl_post_archive_title.php:46
+#: includes/widgets/bl_post_title.php:47 includes/widgets/bl_site_title.php:46
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/widgets/bl_post_archive.php:173
+msgid "Title Length"
+msgstr ""
+
+#: includes/admin/admin-setting.php:409
+msgid "to unlock these pro elements!"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:122
+msgid "Top"
+msgstr ""
+
+#: includes/widgets/bl_page_title.php:78
+#: includes/widgets/bl_post_archive.php:363
+#: includes/widgets/bl_post_archive.php:470
+#: includes/widgets/bl_post_archive.php:576
+#: includes/widgets/bl_post_archive.php:668
+#: includes/widgets/bl_post_archive.php:737
+#: includes/widgets/bl_post_archive.php:873
+#: includes/widgets/bl_post_archive_title.php:80
+#: includes/widgets/bl_post_comments.php:59
+#: includes/widgets/bl_post_comments.php:120
+#: includes/widgets/bl_post_content.php:60
+#: includes/widgets/bl_post_excerpt.php:60
+#: includes/widgets/bl_post_meta_info.php:367
+#: includes/widgets/bl_post_meta_info.php:407
+#: includes/widgets/bl_post_search_form.php:122
+#: includes/widgets/bl_post_search_form.php:207
+#: includes/widgets/bl_post_title.php:80 includes/widgets/bl_site_title.php:80
+msgid "Typography"
+msgstr ""
+
+#: includes/admin/admin-setting.php:553
+msgid "Use Our plugins."
+msgstr ""
+
+#: includes/admin/admin-setting.php:512
+msgid ""
+"Use Our Ready made Elementor templates and build your blog page and single "
+"blog page easily."
+msgstr ""
+
+#: includes/widgets/bl_post_meta_info.php:108
+#: includes/widgets/bl_post_meta_info.php:147
+#, php-format
+msgid "Use the letters: %s"
+msgstr ""
+
+#: includes/admin/admin-setting.php:447
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/admin/admin-setting.php:334
+msgid "View Counter <span>( Pro )</span>"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:100
+msgid "Website"
+msgstr ""
+
+#: includes/widgets/bl_post_author_info.php:148
+msgid "Width"
+msgstr ""
+
+#: includes/admin/admin-setting.php:560
+msgid "WooLentor - WooCommerce Page Builder and WooCommerce Elementor Addon"
+msgstr ""
+
+#: includes/admin/admin-setting.php:601
+msgid "WooLentor – WooCommerce elementor addons + builder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:731
+msgid "WP education – education wordpress plugin for elementor"
+msgstr ""
+
+#: includes/admin/admin-setting.php:741
+msgid "WP Film studio – wordpress movie maker/production plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:661
+msgid "WP Instagram – wordpress instagram feed / widget plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:751
+msgid "WP Insurance – WordPress Insurance Service Plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:671
+msgid "WP News – wordpress news / magazine plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:681
+msgid "WP Team – wordpress team member plugin"
+msgstr ""
+
+#: includes/admin/admin-setting.php:691
+msgid "WPforms widget for elementor page builder"
+msgstr ""
+
+#: includes/admin/admin-setting.php:124
+msgid "You can select blog page from here."
+msgstr ""
+
+#: includes/admin/admin-setting.php:142
+msgid "You can select footer template from here."
+msgstr ""
+
+#: includes/admin/admin-setting.php:133
+msgid "You can select header template from here."
+msgstr ""
+
+#: includes/admin/admin-setting.php:151
+msgid "You can select search page from here. <span>( Pro )</span>"
+msgstr ""
+
+#: includes/admin/admin-setting.php:115
+msgid "You can select Single blog page from here."
+msgstr ""
